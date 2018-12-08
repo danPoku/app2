@@ -8,5 +8,5 @@ ShopifyApp.configure do |config|
   config.after_authenticate_job = false
   config.session_repository = Shop
 
-  config.redirect_uri = "https://ntem.herokuapp.com/auth/shopify/callback"
+  config.redirect_uri = "http://ntem.herokuapp.com/auth/shopify/callback"
 end
